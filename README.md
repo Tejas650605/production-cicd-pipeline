@@ -45,14 +45,11 @@ README.md
 
 ### 🚀 DevOps Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](<img width="1366" height="768" alt="dashboard" src="https://github.com/user-attachments/assets/01153fd0-b382-4f9f-a5ad-1f790a0df05a" />
+)
 
 ---
 
-### 📂 GitHub Repository
-
-![GitHub](screenshots/github-project.png)
----
 
 ## 👨‍💻 Author
 
