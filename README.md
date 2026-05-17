@@ -50,6 +50,7 @@ production-cicd-pipeline/
 ├── k8s/
 ├── terraform/
 └── README.md
+
 ## 📸 Project Screenshots
 
 ### 🚀 DevOps Dashboard
