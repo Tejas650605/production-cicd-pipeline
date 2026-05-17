@@ -41,7 +41,17 @@ k8s/
 terraform/
 README.md
 ```
+## 📸 Project Screenshots
 
+### 🚀 DevOps Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+### 📂 GitHub Repository
+
+![GitHub](screenshots/github-project.png)
 ---
 
 ## 👨‍💻 Author
