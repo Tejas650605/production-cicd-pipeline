@@ -1,46 +1,55 @@
-# 🚀 AWS DevOps CI/CD Project
+# 🚀 DevOps CI/CD Project
 
-## 📌 Project Overview
+## 📌 Overview
 
-This project demonstrates a Production Style CI/CD Pipeline using:
+This project demonstrates a simple Production Style DevOps CI/CD Pipeline using:
 
 - Jenkins
 - Kubernetes
 - Terraform
-- AWS
 - GitHub
+- HTML
+- CSS
+- JavaScript
 
 ---
 
 ## ⚡ Features
 
-✅ Continuous Integration  
-✅ Continuous Deployment  
-✅ Kubernetes Deployment  
-✅ Infrastructure as Code  
-✅ AWS Cloud Deployment  
+✅ DevOps Dashboard UI
+
+✅ Kubernetes Deployment
+
+✅ Infrastructure as Code
+
+✅ CI/CD Pipeline Flow
+
+✅ GitHub Integration
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 
 - Jenkins
 - Kubernetes
 - Terraform
-- AWS EC2
 - GitHub
+- HTML
+- CSS
+- JavaScript
 
 ---
 
 ## 📂 Project Structure
 
 ```bash
-app/
-jenkins/
-k8s/
-terraform/
-README.md
-```
+production-cicd-pipeline/
+│
+├── app/
+├── jenkins/
+├── k8s/
+├── terraform/
+└── README.md
 ## 📸 Project Screenshots
 
 ### 🚀 DevOps Dashboard
