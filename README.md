@@ -1,4 +1,4 @@
-# 🚀 Production DevOps CI/CD Pipeline Project
+# 🚀 Production DevOps CI/CD Automation Pipeline
 
 ## 📌 Project Overview
 
