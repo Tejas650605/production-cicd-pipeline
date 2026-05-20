@@ -263,6 +263,10 @@ Pipeline automatically executes:
 ## 🚀 DevOps Dashboard UI
 
 <img width="1366" height="768" alt="dashboard" src="https://github.com/user-attachments/assets/a422556f-d94f-4b11-90bf-d1509e367b9c" />
+<img width="1366" height="768" alt="index html" src="https://github.com/user-attachments/assets/eaa81280-467d-44cc-a0e6-0e10f2b68622" />
+<img width="1366" height="768" alt="jenkisfiledeploy" src="https://github.com/user-attachments/assets/9c68cb87-4044-4026-ae0f-ce20007cd54f" />
+<img width="1366" height="768" alt="jenkins png" src="https://github.com/user-attachments/assets/89ac0dee-0c91-49ba-8d1c-d2909ab6d156" />
+<img width="1366" height="768" alt="jenkinsconsole" src="https://github.com/user-attachments/assets/ec29f9da-05c2-4e1c-b104-a33f473e3f37" />
 
 ---
 
