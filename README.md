@@ -446,23 +446,6 @@ Through this project, the following DevOps concepts were learned:
 
 ---
 
-# 👨‍💻 Author
-
-## Tejas Kherade
-
-### AWS Cloud & DevOps Enthusiast 🚀
-
-### Skills:
-- Linux
-- AWS
-- Jenkins
-- Terraform
-- Kubernetes
-- Git & GitHub
-- CI/CD Automation
-
----
-
 # ⭐ Support & Contribution
 
 If you found this project useful:
@@ -476,10 +459,6 @@ If you found this project useful:
 🚀 Connect on LinkedIn
 
 ---
-
-# 📜 License
-
-This project is created for educational and learning purposes.
 
 ---
 
@@ -498,3 +477,18 @@ This project is created for educational and learning purposes.
 🟢 Terraform Infrastructure Provisioned
 
 🟢 Production DevOps Workflow Completed Successfully 🚀
+
+# 👨‍💻 Author
+
+## Tejas Kherade
+
+### AWS Cloud & DevOps Enthusiast 🚀
+
+### Skills:
+- Linux
+- AWS
+- Jenkins
+- Terraform
+- Kubernetes
+- Git & GitHub
+- CI/CD Automation
