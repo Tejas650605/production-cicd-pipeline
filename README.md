@@ -349,16 +349,29 @@ Build → Test → Deploy
 
 ## 🚀 DevOps Dashboard
 
-Add screenshots inside the `/screenshots` folder.
+<img width="1366" height="768" alt="dashboard" src="https://github.com/user-attachments/assets/b1366cc8-3579-47bf-97c3-1c4fa5e9afba" />
 
-### Suggested Screenshots
 
-- Dashboard UI
-- Jenkins Pipeline
-- Jenkins Console Output
-- Kubernetes Deployment
-- GitHub Webhook
-- Terraform Execution
+### Vs code all Screenshots
+<img width="1366" height="768" alt="app" src="https://github.com/user-attachments/assets/624f0ae2-a044-4eaf-83c2-e3ffaecd6f3a" />
+<img width="1366" height="768" alt="index html" src="https://github.com/user-attachments/assets/49ab1f41-4e46-4732-927b-885222e8de06" />
+<img width="1366" height="768" alt="style cssjpg" src="https://github.com/user-attachments/assets/aebb3e51-5a53-47a5-91ad-b28c889e9a2d" />
+<img width="1366" height="768" alt="jenkinsfile" src="https://github.com/user-attachments/assets/44eeda17-c502-49a6-9d81-26235b67703d" />
+<img width="1366" height="768" alt="deployed yml" src="https://github.com/user-attachments/assets/f6d40aca-1967-4cad-bb63-55a267ca1b8a" />
+<img width="1366" height="768" alt="hpa yml" src="https://github.com/user-attachments/assets/ff28a30a-d85b-4c6d-9931-378ce67bcd72" />
+<img width="1366" height="768" alt="ingress yaml" src="https://github.com/user-attachments/assets/d79ff3fd-f4bc-4789-bab9-3e0f89562061" />
+<img width="1366" height="768" alt="secret yaml" src="https://github.com/user-attachments/assets/4689397c-d4b6-4a51-b128-eccc3123e064" />
+<img width="1366" height="768" alt="service yaml" src="https://github.com/user-attachments/assets/c493c72e-c132-4755-ad72-8755e4e098f3" />
+<img width="1366" height="768" alt="grafnasetup md" src="https://github.com/user-attachments/assets/1fa2c8ec-b832-4951-a331-5f424900a961" />
+<img width="1366" height="768" alt="main tf" src="https://github.com/user-attachments/assets/6baf4308-524e-4ff9-a967-ada134f38c70" />
+
+## Jenkins Sreenshot
+<img width="1366" height="768" alt="jenkins1" src="https://github.com/user-attachments/assets/9a39aba5-de90-4ff5-b878-b9654c2c7c38" />
+<img width="1366" height="768" alt="jenkins2" src="https://github.com/user-attachments/assets/9ecba6ac-618e-4d96-a9c0-abd600637200" />
+<img width="1366" height="768" alt="jenkins3" src="https://github.com/user-attachments/assets/f288950b-a98a-4028-90fe-12255b7d4ac0" />
+<img width="1366" height="768" alt="jenkins4" src="https://github.com/user-attachments/assets/9faa75b7-75c8-4374-b304-cae8247cca89" />
+<img width="1366" height="768" alt="jenkins5" src="https://github.com/user-attachments/assets/56b91090-d290-4ffa-aa56-09570565a0a4" />
+<img width="1366" height="768" alt="jenkis6" src="https://github.com/user-attachments/assets/0c2ff167-6e86-4bc2-832b-6261908f1827" />
 
 ---
 
