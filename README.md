@@ -7,49 +7,52 @@
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-326ce5?style=for-the-badge)
 ![Terraform](https://img.shields.io/badge/Terraform-IaC-844FBA?style=for-the-badge)
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge)
+![Monitoring](https://img.shields.io/badge/Monitoring-Grafana-yellow?style=for-the-badge)
 
-### ⚡ End-to-End Production Style CI/CD Pipeline Automation Project
+# ⚡ Enterprise-Level DevOps CI/CD Automation Project
+
+### Automated Build • Test • Deploy Pipeline using Jenkins, Kubernetes & Terraform
 
 </div>
 
 ---
 
-# 📌 Overview
+# 📌 Project Overview
 
-This project demonstrates a **Production-Level DevOps CI/CD Automation Pipeline** built using modern DevOps tools and cloud technologies.
+This project demonstrates a **Production-Style DevOps CI/CD Automation Pipeline** built using modern DevOps tools and cloud-native technologies.
 
-The primary goal of this project is to simulate a real-world enterprise DevOps workflow where code changes are automatically integrated, tested, and deployed using a fully automated CI/CD pipeline.
+The objective of this project is to simulate a real-world enterprise DevOps workflow where application code is automatically integrated, tested, deployed, and monitored using industry-standard DevOps practices.
 
-The project covers the complete DevOps lifecycle including:
+This project covers:
 
-- Application Development
-- Source Code Management
-- Continuous Integration
-- Continuous Deployment
+- Continuous Integration (CI)
+- Continuous Deployment (CD)
 - Infrastructure as Code (IaC)
-- Kubernetes Deployment
-- Automation using Jenkins
+- Kubernetes Orchestration
+- Jenkins Pipeline Automation
 - GitHub Webhook Integration
-
-This repository is designed for students, beginners, and DevOps enthusiasts who want hands-on experience with industry-standard DevOps practices.
+- Monitoring & Scaling
+- Production-Level Deployment Architecture
 
 ---
 
-# 🎯 Objectives
+# 🎯 Project Objectives
 
-✅ Build a real-world CI/CD pipeline
-
-✅ Automate build, test, and deployment workflows
+✅ Build an automated CI/CD workflow
 
 ✅ Implement Jenkins Pipeline automation
 
-✅ Integrate GitHub Webhooks with Jenkins
+✅ Configure GitHub Webhook integration
 
 ✅ Deploy applications using Kubernetes
 
-✅ Manage infrastructure using Terraform
+✅ Provision infrastructure using Terraform
 
-✅ Follow professional DevOps project structure
+✅ Configure Kubernetes Ingress & HPA
+
+✅ Implement monitoring using Grafana
+
+✅ Simulate real-world DevOps architecture
 
 ---
 
@@ -58,10 +61,11 @@ This repository is designed for students, beginners, and DevOps enthusiasts who 
 | Category | Technologies |
 |---|---|
 | Frontend | HTML, CSS, JavaScript |
-| Version Control | Git, GitHub |
+| Version Control | Git & GitHub |
 | CI/CD Tool | Jenkins |
 | Container Orchestration | Kubernetes |
 | Infrastructure as Code | Terraform |
+| Monitoring | Grafana |
 | Cloud Platform | AWS |
 | IDE | VS Code |
 | Automation | GitHub Webhooks |
@@ -72,14 +76,16 @@ This repository is designed for students, beginners, and DevOps enthusiasts who 
 
 - 🚀 Automated CI/CD Pipeline
 - 🔥 Jenkins Pipeline Automation
-- 🔗 GitHub Webhook Trigger Integration
-- ☸ Kubernetes Deployment Configuration
+- 🔗 GitHub Webhook Integration
+- ☸ Kubernetes Deployment
 - 🌍 Terraform Infrastructure Provisioning
-- 📦 Automated Build & Deployment Process
-- 📁 Professional DevOps Folder Structure
-- ⚙ Industry-Level Workflow Simulation
-- 🧪 Build → Test → Deploy Pipeline Stages
-- 💻 Modern DevOps Dashboard UI
+- 📊 Monitoring with Grafana
+- 📈 Horizontal Pod Autoscaling (HPA)
+- 🔐 Kubernetes Secret Management
+- 🌐 Kubernetes Ingress Configuration
+- ⚙ Production-Level DevOps Workflow
+- 📦 Build → Test → Deploy Automation
+- 💻 Professional DevOps Dashboard UI
 
 ---
 
@@ -98,7 +104,13 @@ production-cicd-pipeline/
 │
 ├── k8s/
 │   ├── deployment.yaml
-│   └── service.yaml
+│   ├── service.yaml
+│   ├── ingress.yaml
+│   ├── hpa.yaml
+│   └── secret.yaml
+│
+├── monitoring/
+│   └── grafana-setup.md
 │
 ├── terraform/
 │   └── main.tf
@@ -142,6 +154,9 @@ production-cicd-pipeline/
                   │
                   ▼
  Terraform Infrastructure Provisioning
+                  │
+                  ▼
+        Monitoring with Grafana
 ```
 
 ---
@@ -150,34 +165,37 @@ production-cicd-pipeline/
 
 ## ✅ Build Stage
 
-The Jenkins pipeline automatically starts the build process whenever code is pushed to GitHub.
+The Jenkins pipeline automatically starts after code is pushed to GitHub.
 
-### Tasks Performed:
-- Source code checkout
-- Dependency validation
-- Build execution
+### Tasks Performed
+
+- Source Code Checkout
+- Build Execution
+- Dependency Validation
 
 ---
 
 ## ✅ Test Stage
 
-The application workflow and pipeline execution are validated automatically.
+The pipeline validates and tests the application workflow.
 
-### Tasks Performed:
-- Pipeline validation
-- Build verification
-- Workflow testing
+### Tasks Performed
+
+- Pipeline Verification
+- Build Validation
+- Workflow Testing
 
 ---
 
 ## ✅ Deploy Stage
 
-The deployment process is executed automatically using Jenkins Pipeline scripts.
+Application deployment is executed automatically using Jenkins Pipeline scripts.
 
-### Tasks Performed:
-- Kubernetes deployment
-- Service exposure
-- Infrastructure provisioning
+### Tasks Performed
+
+- Kubernetes Deployment
+- Service Exposure
+- Infrastructure Provisioning
 
 ---
 
@@ -187,17 +205,17 @@ The deployment process is executed automatically using Jenkins Pipeline scripts.
 
 ✅ Jenkins Pipeline Job Setup
 
-✅ Jenkinsfile Integration
-
-✅ GitHub Repository Connection
+✅ GitHub Repository Integration
 
 ✅ GitHub Webhook Automation
 
 ✅ Automatic Build Triggering
 
-✅ Pipeline Stage Execution
+✅ Jenkinsfile Configuration
 
-✅ Successful CI/CD Workflow
+✅ CI/CD Workflow Execution
+
+✅ Pipeline Stage Automation
 
 ---
 
@@ -205,25 +223,49 @@ The deployment process is executed automatically using Jenkins Pipeline scripts.
 
 Kubernetes is used for container orchestration and deployment management.
 
-## Deployment Files
+## Kubernetes Configuration Files
 
 ```bash
 deployment.yaml
 service.yaml
+ingress.yaml
+hpa.yaml
+secret.yaml
 ```
 
-## Apply Kubernetes Configuration
+---
+
+## Kubernetes Features
+
+✅ Deployment Management
+
+✅ Service Exposure
+
+✅ Kubernetes Ingress
+
+✅ Horizontal Pod Autoscaler (HPA)
+
+✅ Secret Management
+
+✅ Production Deployment Configuration
+
+---
+
+## Kubernetes Commands
 
 ```bash
 kubectl apply -f k8s/deployment.yaml
 kubectl apply -f k8s/service.yaml
+kubectl apply -f k8s/ingress.yaml
+kubectl apply -f k8s/hpa.yaml
+kubectl apply -f k8s/secret.yaml
 ```
 
 ---
 
 # 🌍 Terraform Infrastructure Setup
 
-Terraform is used to provision infrastructure using Infrastructure as Code (IaC) principles.
+Terraform is used for Infrastructure as Code (IaC) provisioning.
 
 ## Terraform Commands
 
@@ -232,18 +274,46 @@ terraform init
 terraform apply
 ```
 
+---
+
 ## Infrastructure Benefits
 
-- Automated provisioning
-- Reusable infrastructure
-- Scalable cloud deployment
-- Infrastructure consistency
+- Automated Infrastructure Provisioning
+- Reusable Infrastructure Configuration
+- Scalable Cloud Deployment
+- Infrastructure Consistency
+
+---
+
+# 📊 Monitoring Stack
+
+Grafana is implemented for monitoring Kubernetes workloads and infrastructure metrics.
+
+## Monitoring Features
+
+✅ CPU Monitoring
+
+✅ Memory Monitoring
+
+✅ Pod Health Monitoring
+
+✅ Real-Time Metrics Visualization
+
+✅ Kubernetes Cluster Monitoring
+
+---
+
+## Monitoring Setup
+
+```bash
+monitoring/grafana-setup.md
+```
 
 ---
 
 # 🔗 GitHub & Jenkins Integration
 
-GitHub is integrated with Jenkins using webhooks for automatic pipeline execution.
+GitHub is integrated with Jenkins using webhooks for automatic CI/CD execution.
 
 ## Integration Components
 
@@ -252,15 +322,19 @@ GitHub is integrated with Jenkins using webhooks for automatic pipeline executio
 - GitHub Webhook
 - Automatic Trigger System
 
+---
+
 ## Webhook URL
 
 ```text
 http://YOUR-IP:8080/github-webhook/
 ```
 
+---
+
 ## Enabled Event
 
-✅ Push Event Trigger
+✅ Just the Push Event
 
 ---
 
@@ -276,7 +350,7 @@ git clone <repository-url>
 
 # 2️⃣ Open Project
 
-Open the project in:
+Open the project using:
 
 ```text
 VS Code
@@ -286,7 +360,7 @@ VS Code
 
 # 3️⃣ Run Frontend Application
 
-Use Live Server Extension in VS Code.
+Use the Live Server Extension in VS Code.
 
 ---
 
@@ -299,7 +373,9 @@ Use Live Server Extension in VS Code.
 - Install Suggested Plugins
 - Create Admin User
 
-## Create Pipeline Job
+---
+
+## Create Jenkins Pipeline
 
 - Create New Item
 - Select Pipeline
@@ -324,8 +400,9 @@ Add the following webhook URL in GitHub:
 http://YOUR-IP:8080/github-webhook/
 ```
 
-## Enable:
-✅ Just the push event
+Enable:
+
+✅ Just the Push Event
 
 ---
 
@@ -337,13 +414,166 @@ Click:
 Build Now
 ```
 
-Pipeline automatically performs:
+Pipeline automatically executes:
 
 ```text
 Build → Test → Deploy
 ```
 
 ---
+
+# 📸 Project Screenshots
+
+## 🚀 DevOps Dashboard UI
+
+Add screenshots inside the `/screenshots` folder.
+
+### Suggested Screenshots
+
+- Dashboard UI
+- Jenkins Pipeline
+- Jenkins Console Output
+- Kubernetes Deployment
+- GitHub Webhook
+- Terraform Execution
+- Grafana Dashboard
+
+---
+
+# 📈 Project Outcome
+
+Successfully implemented:
+
+✅ End-to-End CI/CD Automation
+
+✅ Jenkins Pipeline Integration
+
+✅ GitHub Webhook Automation
+
+✅ Kubernetes Deployment Workflow
+
+✅ Terraform Infrastructure Provisioning
+
+✅ Monitoring with Grafana
+
+✅ Kubernetes Auto Scaling
+
+✅ Production-Level DevOps Architecture
+
+---
+
+# 🔄 Real-World DevOps Workflow
+
+```text
+Developer Commit
+        ↓
+GitHub Repository
+        ↓
+Webhook Trigger
+        ↓
+Jenkins Pipeline
+        ↓
+Build Stage
+        ↓
+Test Stage
+        ↓
+Deploy Stage
+        ↓
+Kubernetes Deployment
+        ↓
+Monitoring & Scaling
+```
+
+---
+
+# 💡 Learning Outcomes
+
+Through this project, the following DevOps concepts were implemented and learned:
+
+- CI/CD Pipeline Automation
+- Jenkins Pipeline Configuration
+- GitHub Webhook Integration
+- Kubernetes Deployment
+- Terraform Infrastructure Management
+- Kubernetes Ingress
+- Horizontal Pod Autoscaling (HPA)
+- Secret Management
+- Monitoring with Grafana
+- Infrastructure as Code (IaC)
+- Production-Level DevOps Workflow
+
+---
+
+# 🚀 Future Enhancements
+
+- Docker Containerization
+- AWS EC2 Deployment
+- SonarQube Integration
+- Prometheus Monitoring
+- Jenkins Shared Libraries
+- NGINX Ingress Controller
+- ArgoCD GitOps Deployment
+- Helm Charts
+- Multi-Environment Deployment
+
+---
+
+# 👨‍💻 Author
+
+# Tejas Kherade
+
+### AWS Cloud & DevOps Enthusiast 🚀
+
+## Skills
+
+- Linux
+- AWS
+- Jenkins
+- Terraform
+- Kubernetes
+- Git & GitHub
+- CI/CD Automation
+- Monitoring & DevOps
+
+---
+
+# ⭐ Support & Contribution
+
+If you found this project useful:
+
+⭐ Star the Repository
+
+🍴 Fork the Project
+
+📢 Share with Others
+
+🚀 Connect on LinkedIn
+
+---
+
+# 📜 License
+
+This project is created for educational and learning purposes.
+
+---
+
+# ✅ Project Status
+
+🟢 GitHub Integrated
+
+🟢 Jenkins Connected
+
+🟢 Webhook Working Successfully
+
+🟢 CI/CD Pipeline Running
+
+🟢 Kubernetes Deployment Configured
+
+🟢 Terraform Infrastructure Provisioned
+
+🟢 Grafana Monitoring Configured
+
+🟢 Production DevOps Workflow Completed Successfully 🚀
 
 # 📸 Project Screenshots
 
@@ -373,110 +603,7 @@ Build → Test → Deploy
 <img width="1366" height="768" alt="jenkins5" src="https://github.com/user-attachments/assets/56b91090-d290-4ffa-aa56-09570565a0a4" />
 <img width="1366" height="768" alt="jenkis6" src="https://github.com/user-attachments/assets/0c2ff167-6e86-4bc2-832b-6261908f1827" />
 
----
-
-# 📈 Project Outcome
-
-Successfully implemented:
-
-✅ End-to-End CI/CD Automation
-
-✅ Jenkins Pipeline Integration
-
-✅ GitHub Webhook Automation
-
-✅ Kubernetes Deployment Workflow
-
-✅ Terraform Infrastructure Provisioning
-
-✅ Production-Level DevOps Architecture
-
-✅ Real Industry DevOps Workflow
-
----
-
-# 🔄 Real-World DevOps Workflow
-
-```text
-Developer Commit
-        ↓
-GitHub Repository
-        ↓
-Webhook Trigger
-        ↓
-Jenkins Pipeline
-        ↓
-Build Stage
-        ↓
-Test Stage
-        ↓
-Deploy Stage
-        ↓
-Kubernetes Deployment
-```
-
----
-
-# 💡 Learning Outcomes
-
-Through this project, the following DevOps concepts were learned:
-
-- CI/CD Pipeline Automation
-- Jenkins Pipeline Configuration
-- GitHub Webhook Integration
-- Kubernetes Basics
-- Terraform Infrastructure Management
-- DevOps Workflow Automation
-- Infrastructure as Code
-- Production-Level Project Structure
-
----
-
-# 🚀 Future Enhancements
-
-- Docker Containerization
-- AWS EC2 Deployment
-- SonarQube Code Quality Analysis
-- Prometheus Monitoring
-- Grafana Dashboard Integration
-- Jenkins Shared Libraries
-- Production Kubernetes Cluster
-- NGINX Ingress Controller
-- ArgoCD GitOps Deployment
-
----
-
-# ⭐ Support & Contribution
-
-If you found this project useful:
-
-⭐ Star the Repository
-
-🍴 Fork the Project
-
-📢 Share with Others
-
-🚀 Connect on LinkedIn
-
----
-
----
-
-# ✅ Project Status
-
-🟢 GitHub Integrated
-
-🟢 Jenkins Connected
-
-🟢 Webhook Working Successfully
-
-🟢 CI/CD Pipeline Running
-
-🟢 Kubernetes Deployment Configured
-
-🟢 Terraform Infrastructure Provisioned
-
-🟢 Production DevOps Workflow Completed Successfully 🚀
+--
 
 # 👨‍💻 Author
 
